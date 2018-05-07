@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 p {
@@ -24,13 +24,23 @@ ul.menu li {
 }
 
 ul.menu li a, ul.menu ul.menu li a {
-  background: #332F29;
-  color: #fff;
+  /*background: #332F29;*/
+  background: #f6f6f6;
+  /*color: #fff;*/
+  font-size: 1.1em;
+  /*border: 0.1px solid #dddddd;*/
+  color: #527bbd;
   padding: 0.5em;
 }
 
 ul.menu li a:hover, ul.menu ul.menu li a:hover {
-  background: #000;
+  /*background: #000;*/
+  border-bottom: 1px gray dotted;
+}
+
+ul.menu li a.current:link, ul.menu ul.menu li a.current:visited {
+  color: #022b6d;
+  border-bottom: 1px gray solid;
 }
 
 ul.menu li ul li a, ul.menu ul.menu li ul li a {
