@@ -59,7 +59,7 @@ body
 {     
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	background-color:#ad3e24;
+	/*background-color:#ad3e24;*/
 	line-height:1.4;
 	overflow-y:scroll; 
 }
